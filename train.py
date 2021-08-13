@@ -1,7 +1,6 @@
-"""Train a YOLOv5 model on a custom dataset
+"""Train a YOLOv5 model on your dataset
 
-Usage:
-    $ python path/to/train.py --data coco128.yaml --weights yolov5s.pt --img 640
+
 """
 
 import argparse
