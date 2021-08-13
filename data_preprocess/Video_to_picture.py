@@ -6,7 +6,7 @@ def save_image(image, addr, num):
     address = addr + str(num) + '.jpg'
     cv2.imwrite(address, image)
 
-VideoCapture = cv2.VideoCapture("3.asf")
+VideoCapture = cv2.VideoCapture("3.asf") #add video
 
 success, frame = VideoCapture.read()
 
