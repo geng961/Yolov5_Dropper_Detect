@@ -63,7 +63,7 @@ python data_preprocess/format_transformation.py
 ```bash
 data/dropper_detect.yaml    #Set your data distribution
 
-models/yolov5_dropper_detect.yaml  #c: set number of classes
+models/yolov5_dropper_detect.yaml  #nc: set number of classes
 
 python train.py --img 640 --batch 16 --epochs 300 --data ./data/dropper_detect.yaml --cfg ./models/yolov5_dropper_detect.yaml --weights ./weights/yolov5s.pt --device 1 #You can change to a, B and C models. You need to download the pretraining weights yourself.
 ```
