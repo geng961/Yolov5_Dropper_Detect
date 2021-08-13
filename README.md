@@ -4,6 +4,8 @@
 Dropper detection of rail transit.
 
 ![Image](https://github.com/geng961/Yolov5_Dropper_Detect/blob/master/runs/detect/exp33/3%20(1).gif)
+![Image](https://github.com/geng961/Yolov5_Dropper_Detect/blob/master/runs/train/exp/val_batch0_pred.jpg)
+
 
 
 
